@@ -1,6 +1,10 @@
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
+
+namespace Moghimi.Core.Json
+{
 	public static class ConvertExtensions
 	{
-
 		public static string ToJson(this object Object)
 		{
 
@@ -44,3 +48,4 @@
 			return res;
 		}
 	}
+}
